@@ -21,6 +21,8 @@ app.command("/yellow-ping", async ({ command, ack, say }) => {
 });
 
 (async () => {
+    console.log("Starting bot...");
     await app.start();
     console.log("Bot is running yayy!");
 })();
+
